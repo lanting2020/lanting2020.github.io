@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -8,37 +8,38 @@
   <meta name="renderer" content="webkit">
 
   
-  <title>Hello World | 朱兰婷的博客</title>
+  <title>HTTP常用方法 | 记录工作与生活</title>
 
   <link rel="shortcut icon" href="/images/favicon.png">
-  <link rel="alternate" href="/atom.xml" title="朱兰婷的博客" type="application/atom+xml">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <link rel="alternate" href="/atom.xml" title="记录工作与生活" type="application/atom+xml">
+  <meta name="description" content="本文主要介绍HTTP常用方法. 快速开始1. GET：获取资源1GET方法用来请求URL指定的资源。指定的资源经服务器端解析后返回响应内容。   2. POST:传输实体主体1POST方法用来传输实体的主体。  3. PUT:传输文件1PUT方法用来传输文件。就像FTP协议的文件上传一样，要求在请求报文主体中包含文件的内容，然后保存到请求URL指定的位置。不太常用。   4. HEAD：获取报文首">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/02/07/hello-world/index.html">
-<meta property="og:site_name" content="朱兰婷的博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-02-07T03:17:27.071Z">
-<meta property="article:modified_time" content="2023-02-07T07:54:31.962Z">
+<meta property="og:title" content="HTTP常用方法">
+<meta property="og:url" content="http://example.com/2023/02/10/my-work/index.html">
+<meta property="og:site_name" content="记录工作与生活">
+<meta property="og:description" content="本文主要介绍HTTP常用方法. 快速开始1. GET：获取资源1GET方法用来请求URL指定的资源。指定的资源经服务器端解析后返回响应内容。   2. POST:传输实体主体1POST方法用来传输实体的主体。  3. PUT:传输文件1PUT方法用来传输文件。就像FTP协议的文件上传一样，要求在请求报文主体中包含文件的内容，然后保存到请求URL指定的位置。不太常用。   4. HEAD：获取报文首">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-02-09T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-02-08T02:40:47.029Z">
 <meta property="article:author" content="朱兰婷">
+<meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
 
-  <meta name="keywords" content="">
+  <meta name="keywords" content=",技术">
   <meta name="format-detection" content="telephone=no,email=no">
   <meta name="theme-color" content="#9C27B0">
 
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="朱兰婷的博客">
-  <meta name="msapplication-starturl" content="http://example.com/2023/02/07/hello-world/">
+  <meta name="application-name" content="记录工作与生活">
+  <meta name="msapplication-starturl" content="http://example.com/2023/02/10/my-work/">
   <meta name="msapplication-navbutton-color" content="#9C27B0">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="朱兰婷的博客">
+  <meta name="apple-mobile-web-app-title" content="记录工作与生活">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="/images/favicon.png">
 
   
-    <link rel="canonical" href="http://example.com/2023/02/07/hello-world/">
+    <link rel="canonical" href="http://example.com/2023/02/10/my-work/">
   
 
   
@@ -64,9 +65,9 @@
   <header id="header" class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-appbar-inset">
   <div class="mdui-toolbar mdui-color-theme">
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="mdui-icon material-icons">menu</i></a>
-    <a href="/" class="mdui-typo-headline">朱兰婷的博客</a>
+    <a href="/" class="mdui-typo-headline">记录工作与生活</a>
     <div class="mdui-toolbar-spacer"></div>
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: 'Search'}"><i class="mdui-icon material-icons">search</i></a>
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></a>
     <a href="/atom.xml" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'RSS'}"><i class="mdui-icon material-icons">rss_feed</i></a>
   </div>
 </header>
@@ -85,7 +86,7 @@
     <div class="mdui-grid-tile-actions">
       <div class="mdui-grid-tile-text">
         <div class="mdui-grid-tile-title">朱兰婷</div>
-        <div class="mdui-grid-tile-subtitle"><i class="mdui-icon material-icons">art_track</i></div>
+        <div class="mdui-grid-tile-subtitle"><i class="mdui-icon material-icons">art_track</i>所念皆所愿，所行皆坦途</div>
       </div>
       
         <div class="mdui-grid-tile-buttons">
@@ -109,7 +110,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        <a class="mdui-ripple sidebar_archives-link" href="/archives/2023/02/">February 2023<span class="mdui-ripple sidebar_archives-count">2</span></a>
+        <a class="mdui-ripple sidebar_archives-link" href="/archives/2023/02/">二月 2023<span class="mdui-ripple sidebar_archives-count">3</span></a>
         
       </div>
     </div>
@@ -122,9 +123,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        
-        
-          <a href="javascript:;" class="mdui-list-item mdui-p-l-2 mdui-text-color-theme mdui-ripple" style="justify-content: center;">No Categories</a>
+        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E5%91%A8%E6%8A%A5/">周报<span class="mdui-ripple sidebar_archives-count">1</span></a><a class="mdui-ripple sidebar_archives-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习<span class="mdui-ripple sidebar_archives-count">2</span></a>
         
       </div>
     </div>
@@ -137,9 +136,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        
-        
-          <a href="javascript:;" class="mdui-list-item mdui-p-l-2 mdui-text-color-theme mdui-ripple" style="justify-content: center;">No Tags</a>
+        <a class="mdui-ripple sidebar_archives-link" href="/tags/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/" rel="tag">工作记录<span class="mdui-ripple sidebar_archives-count">1</span></a><a class="mdui-ripple sidebar_archives-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术<span class="mdui-ripple sidebar_archives-count">2</span></a>
         
       </div>
     </div>
@@ -168,7 +165,7 @@
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
         
-          <a href="javascript:;" class="mdui-list-item mdui-p-l-2 mdui-text-color-theme mdui-ripple" style="justify-content: center;">No Links</a>
+          <a href="javascript:;" class="mdui-list-item mdui-p-l-2 mdui-text-color-theme mdui-ripple" style="justify-content: center;">链接为空</a>
         
       </div>
     </div>
@@ -183,11 +180,11 @@
   <style>#main article .mdui-card-content .text-center{text-align:center!important}</style>
   <article class="mdui-card mdui-m-b-5">
     <header class="mdui-card-media">
-      <img src="/images/random/material-5.png" style="max-height: 240px;">
+      <img src="/images/random/material-6.png" style="max-height: 240px;">
       <div class="mdui-card-media-covered">
         <div class="mdui-card-primary">
-          <div class="mdui-card-primary-title">Hello World</div>
-          <div class="mdui-card-primary-subtitle"><i class="iconfont">&#xe697;</i> 2023-02-07 / <i class="iconfont">&#xe601;</i> 朱兰婷</div>
+          <div class="mdui-card-primary-title">HTTP常用方法</div>
+          <div class="mdui-card-primary-subtitle"><i class="iconfont">&#xe697;</i> 2023-02-10 / <i class="iconfont">&#xe601;</i> 朱兰婷</div>
         </div>
       </div>
       <div class="mdui-card-menu">
@@ -199,7 +196,7 @@
             
             <li class="mdui-menu-item" disabled>
               
-                <img src="//chart.googleapis.com/chart?cht=qr&chs=246x246&chl=http://example.com/2023/02/07/hello-world/&chld=M|2">
+                <img src="//qr.liantu.com/api.php?w=246&m=10&text=http://example.com/2023/02/10/my-work/">
               
             </li>
           </ul>
@@ -208,53 +205,63 @@
           <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#share_menu', align: 'right'}"><i class="mdui-icon material-icons">share</i></button>
           <ul class="mdui-menu" id="share_menu">
             <li class="mdui-menu-item">
-              <a href="https://service.weibo.com/share/share.php?appkey=&title=Hello World&url=http://example.com/2023/02/07/hello-world/&pic=http://example.com/images/favicon.png&searchPic=false&style=simple" target="_blank" class="mdui-ripple">Share to Weibo</a>
+              <a href="https://service.weibo.com/share/share.php?appkey=&title=HTTP常用方法&url=http://example.com/2023/02/10/my-work/&pic=http://example.com/images/favicon.png&searchPic=false&style=simple" target="_blank" class="mdui-ripple">分享到 Weibo</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://twitter.com/intent/tweet?text=Hello World&url=http://example.com/2023/02/07/hello-world/&via=朱兰婷" target="_blank" class="mdui-ripple">Share to Twitter</a>
+              <a href="https://twitter.com/intent/tweet?text=HTTP常用方法&url=http://example.com/2023/02/10/my-work/&via=朱兰婷" target="_blank" class="mdui-ripple">分享到 Twitter</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2023/02/07/hello-world/" target="_blank" class="mdui-ripple">Share to Facebook</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2023/02/10/my-work/" target="_blank" class="mdui-ripple">分享到 Facebook</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://plus.google.com/share?url=http://example.com/2023/02/07/hello-world/" target="_blank" class="mdui-ripple">Share to Google+</a>
+              <a href="https://plus.google.com/share?url=http://example.com/2023/02/10/my-work/" target="_blank" class="mdui-ripple">分享到 Google+</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://example.com/2023/02/07/hello-world/&title=Hello World" target="_blank" class="mdui-ripple">Share to LinkedIn</a>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://example.com/2023/02/10/my-work/&title=HTTP常用方法" target="_blank" class="mdui-ripple">分享到 LinkedIn</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://connect.qq.com/widget/shareqq/index.html?site=朱兰婷的博客&title=Hello World&pics=http://example.com/images/favicon.png&url=http://example.com/2023/02/07/hello-world/" target="_blank" class="mdui-ripple">Share to QQ</a>
+              <a href="https://connect.qq.com/widget/shareqq/index.html?site=记录工作与生活&title=HTTP常用方法&pics=http://example.com/images/favicon.png&url=http://example.com/2023/02/10/my-work/" target="_blank" class="mdui-ripple">分享到 QQ</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://telegram.me/share/url?url=http://example.com/2023/02/07/hello-world/&text=Hello World" target="_blank" class="mdui-ripple">Share to Telegram</a>
+              <a href="https://telegram.me/share/url?url=http://example.com/2023/02/10/my-work/&text=HTTP常用方法" target="_blank" class="mdui-ripple">分享到 Telegram</a>
             </li>
           </ul>
         
       </div>
     </header>
     <div class="mdui-card-content mdui-typo">
-      <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+      <p>本文主要介绍HTTP常用方法.</p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="1-GET：获取资源"><a href="#1-GET：获取资源" class="headerlink" title="1. GET：获取资源"></a>1. GET：获取资源</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET方法用来请求URL指定的资源。指定的资源经服务器端解析后返回响应内容。</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="2-POST-传输实体主体"><a href="#2-POST-传输实体主体" class="headerlink" title="2. POST:传输实体主体"></a>2. POST:传输实体主体</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">POST方法用来传输实体的主体。</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="3-PUT-传输文件"><a href="#3-PUT-传输文件" class="headerlink" title="3. PUT:传输文件"></a>3. PUT:传输文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PUT方法用来传输文件。就像FTP协议的文件上传一样，要求在请求报文主体中包含文件的内容，然后保存到请求URL指定的位置。不太常用。</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+<h3 id="4-HEAD：获取报文首部"><a href="#4-HEAD：获取报文首部" class="headerlink" title="4. HEAD：获取报文首部"></a>4. HEAD：获取报文首部</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HEAD：获取报文首部</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-DELETE：删除文件"><a href="#5-DELETE：删除文件" class="headerlink" title="5. DELETE：删除文件"></a>5. DELETE：删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DELETE方法用来删除文件，是PUT的相反方法。DELETE方法按请求URL删除指定的资源。也不常用。</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-OPTIONS-询问支持的方法"><a href="#6-OPTIONS-询问支持的方法" class="headerlink" title="6. OPTIONS:询问支持的方法"></a>6. OPTIONS:询问支持的方法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">OPTIONS:询问支持的方法</span><br></pre></td></tr></table></figure>
+
+<h3 id="7-TRACE-追踪路径"><a href="#7-TRACE-追踪路径" class="headerlink" title="7. TRACE:追踪路径"></a>7. TRACE:追踪路径</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TRACE方法是让Web服务器端将之前的请求通信环回给客户端方法。客户端可以用TRACE方法查询发送出去的请求时怎样被加工修改的。不常用，还容易引发XST攻击</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-CONNECT-要求用隧道协议链接代理"><a href="#8-CONNECT-要求用隧道协议链接代理" class="headerlink" title="8. CONNECT:要求用隧道协议链接代理"></a>8. CONNECT:要求用隧道协议链接代理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CONNECT方法要求在与代理服务器通信时建立隧道，实现用隧道协议进行TCP通信。主要使用SSL和TSL协议把通信内容加密后经网络隧道传输。</span><br></pre></td></tr></table></figure>
+
 
       
       <blockquote>
         
-        <strong>PermaLink: </strong><br><a href="http://example.com/2023/02/07/hello-world/">http://example.com/2023/02/07/hello-world/</a>
+        <strong>本文链接：</strong><br><a href="http://example.com/2023/02/10/my-work/">http://example.com/2023/02/10/my-work/</a>
       </blockquote>
     </div>
     <footer class="mdui-card-actions">
       
+        <a class="mdui-ripple article_categories-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
+      
+      
+        <a class="mdui-ripple article_tags-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a>
       
     </footer>
     
@@ -268,12 +275,12 @@
 
   <nav id="paginator">
     
-      <a rel="prev" class="extend prev" href="/2023/02/07/hello-world%20-%20%E5%89%AF%E6%9C%AC/">
-        <button aria-label="prev" class="mdui-btn mdui-btn-raised mdui-btn-icon mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">arrow_back</i></button>
-        <span class="mdui-p-x-3" mdui-tooltip="{content: 'Hello World'}">Prev</span>
-      </a>
-    
     <div class="spacer"></div>
+    
+      <a rel="next" class="extend next" href="/2023/02/10/hello-world/">
+        <span class="mdui-p-x-3" mdui-tooltip="{content: 'git环境部署代码和liux常用命令'}">下一篇</span>
+        <button aria-label="next" class="mdui-btn mdui-btn-raised mdui-btn-icon mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">arrow_forward</i></button>
+      </a>
     
   </nav>
 
